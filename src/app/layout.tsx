@@ -1,16 +1,71 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from 'next/font/local'
+import Header from "./components/Header";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const interRegular = localFont({
+	src: [
+		{
+			path: './fonts/InterRegular.woff2',
+			weight: '400',
+			style: 'normal',
+		},
+		{
+			path: './fonts/InterRegular.woff',
+			weight: '400',
+			style: 'normal',
+		},
+	],
+	variable: '--font-inter-regular',
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const interMedium = localFont({
+	src: [
+		{
+			path: './fonts/InterMedium.woff2',
+			weight: '500',
+			style: 'normal',
+		},
+		{
+			path: './fonts/InterMedium.woff',
+			weight: '500',
+			style: 'normal',
+		},
+	],
+	variable: '--font-inter-medium',
+})
+
+const interSemiBold = localFont({
+	src: [
+		{
+			path: './fonts/InterSemiBold.woff2',
+			weight: '600',
+			style: 'normal',
+		},
+		{
+			path: './fonts/InterSemiBold.woff',
+			weight: '600',
+			style: 'normal',
+		},
+	],
+	variable: '--font-inter-semibold',
+})
+
+const interExtraLight = localFont({
+	src: [
+		{
+			path: './fonts/InterExtraLight.woff2',
+			weight: '200',
+			style: 'normal',
+		},
+		{
+			path: './fonts/InterExtraLight.woff',
+			weight: '200',
+			style: 'normal',
+		},
+	],
+	variable: '--font-inter-extralight',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +80,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+       className={`${interRegular.variable} ${interMedium.variable} ${interSemiBold.variable} ${interExtraLight.variable} bg-body bg-cover bg-no-repeat`}
       >
-        {children}
+		<Header />
+        <main>{children}</main>
       </body>
     </html>
   );
