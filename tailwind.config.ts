@@ -10,11 +10,16 @@ export default {
     extend: {
       colors: {
         primary: "#788FBB",
+        hoverprimary: "#586887",
         foreground: "#131921",
         gray: "#838383",
+        footer: "#101317"
       },
       backgroundImage: {
         'body': "url('/bg.png')",
+        'body-mobile': "url('/bg-mobile.png')",
+        'action': "url('/action/action-bg.png')",
+        'faq': "url('/faq/faq-bg.png')"
         },
       fontFamily: {
   			inter: ["var(--font-inter-regular)", "sans-serif"],
@@ -25,6 +30,21 @@ export default {
       container: {
         center: true,
         padding: '15px',
+      },
+      screens: {
+        'xs': '380px',
+
+        's': '480px',
+
+        'sm': '640px',
+  
+        'md': '768px',
+
+        'lg': '1024px',
+  
+        'xl': '1280px',
+  
+        '2xl': '1536px',
       }
     },
   },

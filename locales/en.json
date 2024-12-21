@@ -1,0 +1,51 @@
+{
+  "Header": {
+    "button": "Get Started"
+  },
+  "Hero": {
+    "title1": "All the Top Nodes",
+    "title2": "Ready",
+    "title3": "in a Few Clicks",
+    "banner": "Tailored for Web3, with Love",
+    "button": "Get Started"
+  },
+  "Features": {
+    "title": "Features",
+    "subtitle": "The main features of the service, thanks to you there will be no doubt in choosing us",
+    "firstItemTitle": "Effortless Node Setup",
+    "firstItemText": "Deploy any blockchain node from our catalog with minimal effort and maximum efficiency Node Setup",
+    "secondItemTitle": "Seamless Management",
+    "secondItemText": "All your nodes in one dashboard, designed for ease of use and reliability",
+    "thirdItemTitle": "Secure & Scalable",
+    "thirdItemText": "Robust infrastructure to keep your nodes safe and ready to scale as you grow",
+    "fourthItemTitle": "Fast Deployment",
+    "fourthItemText": "Get your nodes up and running within minutes, no technical skills required",
+    "fifthItemTitle": "Real-Time Monitoring",
+    "fifthItemText": "Stay connected with real-time updates on node performance and status"
+  },
+  "Action": {
+    "title": "Cost-Effective Solutions: Get premium node services without breaking the bank",
+    "button": "Get Started"
+  },
+  "Faq": {
+    "title": "Frequently Asked",
+    "title2": "Question",
+    "firtstQues": "How long does it take to deploy a node?",
+    "firtstAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "secondQues": "Do I need technical expertise to use this service?",
+    "secondAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "thirdQues": "Is my data safe?",
+    "thirdAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "fourthQues": "What if I have issues?",
+    "fourthAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "fifthQues": "Are there any hidden fees?",
+    "fifthAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "sixthQues": "What hardware do nodes run on?",
+    "sixthAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours.",
+    "seventhQues": "What happens if my node goes offline?",
+    "seventhAnsw": "Your order reaches us instantly, after which it is assigned an administrator who is responsible for its installation. We use the most advanced methods for installing nodes, however, the installation time of a node depends specifically on the project. The average node installation time is from 15 minutes to 1.5 hours."
+  },
+  "Footer": {
+    "rights": "All right Reserved"
+  }
+}
