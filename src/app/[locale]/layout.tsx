@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { NextIntlClientProvider } from "next-intl";
+import { AbstractIntlMessages, NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Locale, routing } from "@/i18n/routing";
@@ -50,14 +50,15 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise <{ locale: string }>;
 }) {
   const { locale } = await params;
+
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
-  const messages = await getMessages();
+  const messages: AbstractIntlMessages = await getMessages();
 
   return (
     <html lang={locale}>

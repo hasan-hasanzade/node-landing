@@ -22,8 +22,8 @@ const Features: React.FC = () => {
         <div className="mt-[60px] flex gap-[35px] md:gap-24 flex-wrap justify-center">
           <div className="w-full md:w-1/3 lg:w-1/4">
             <div className="w-[90px] h-[90px] bg-foreground rounded-[15px] flex justify-center items-center shadow-[inset_1.1778208017349243px_1.1778208017349243px_2px_0px_rgba(237,250,255,0.06)] shadow-[inset_-1px_-1px_2px_0px_rgba(255,255,255,0.50)]">
-              <div className="">
-                <SetupIcon className="" />
+              <div className="drop-shadow-[0_0px_18px_rgba(225,225,225,1)]">
+                <SetupIcon width={36} height={32}/>
               </div>
             </div>
             <h3 className="font-inter-medium text-2xl mt-[45px]">
@@ -35,7 +35,7 @@ const Features: React.FC = () => {
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4">
             <div className="w-[90px] h-[90px] bg-foreground rounded-[15px] flex justify-center items-center shadow-[inset_1.1778208017349243px_1.1778208017349243px_2px_0px_rgba(237,250,255,0.06)] shadow-[inset_-1px_-1px_2px_0px_rgba(255,255,255,0.50)]">
-              <ManageIcon />
+              <div className="drop-shadow-[0_0px_25px_rgba(225,225,225,1)]"><ManageIcon width={37} height={34}/></div>
             </div>
             <h3 className="font-inter-medium text-2xl mt-[45px]">
               {t("secondItemTitle")}
@@ -46,7 +46,7 @@ const Features: React.FC = () => {
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4">
             <div className="w-[90px] h-[90px] bg-foreground rounded-[15px] flex justify-center items-center shadow-[inset_1.1778208017349243px_1.1778208017349243px_2px_0px_rgba(237,250,255,0.06)] shadow-[inset_-1px_-1px_2px_0px_rgba(255,255,255,0.50)]">
-              <SecureIcon />
+              <div className="drop-shadow-[0_0px_30px_rgba(225,225,225,09)]"><SecureIcon width={52} height={36}/></div>
             </div>
             <h3 className="font-inter-medium text-2xl mt-[45px]">
               {t("thirdItemTitle")}
@@ -57,7 +57,7 @@ const Features: React.FC = () => {
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4">
             <div className="w-[90px] h-[90px] bg-foreground rounded-[15px] flex justify-center items-center shadow-[inset_1.1778208017349243px_1.1778208017349243px_2px_0px_rgba(237,250,255,0.06)] shadow-[inset_-1px_-1px_2px_0px_rgba(255,255,255,0.50)]">
-              <FastIcon />
+              <div className="drop-shadow-[0_0px_25px_rgba(225,225,225,05)]"><FastIcon width={46} height={36}/></div>
             </div>
             <h3 className="font-inter-medium text-2xl mt-[45px]">
               {t("fourthItemTitle")}
@@ -68,7 +68,7 @@ const Features: React.FC = () => {
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4">
             <div className="w-[90px] h-[90px] bg-foreground rounded-[15px] flex justify-center items-center shadow-[inset_1.1778208017349243px_1.1778208017349243px_2px_0px_rgba(237,250,255,0.06)] shadow-[inset_-1px_-1px_2px_0px_rgba(255,255,255,0.50)]">
-              <RealIcon />
+              <div className="drop-shadow-[0_0px_25px_rgba(225,225,225,05)]"><RealIcon width={36} height={36}/></div>
             </div>
             <h3 className="font-inter-medium text-2xl mt-[45px]">
               {t("fifthItemTitle")}

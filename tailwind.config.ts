@@ -45,7 +45,10 @@ export default {
         'xl': '1280px',
   
         '2xl': '1536px',
-      }
+      },
+      boxShadow: {
+        custom: 'inset 1.18px 1.18px 2px rgba(237, 250, 255, 0.06), inset -1px -1px 2px rgba(255, 255, 255, 0.5)',
+      },
     },
   },
   plugins: [],
